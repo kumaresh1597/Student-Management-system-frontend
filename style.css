@@ -1,0 +1,72 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+
+    background-color: black;
+    color: white;
+    padding: 20px;
+    height: 110px;
+
+}
+
+.inputs{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.inputs>input{
+    height: 50px;
+    width: 400px;
+    background-color: black;
+    margin-inline: 10px;
+    color: white;
+}
+input::placeholder{
+    font-size: 20px;
+}
+
+.btn{
+    width: 500px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 24px;
+    margin: 10px;
+}
+
+.search-bar>input{
+    height: 50px;
+    width: 90%;
+    margin: 10px;
+    background-color: black;
+    /* border: 1px solid #FFFFFF; */
+}
+
+#table{
+    border: 1px solid #FFFFFF;
+    width: 90%;
+    margin: 10px;
+  
+}
+th{
+    border-collapse: collapse;
+    border-bottom: 1px solid #FFFFFF;
+    border-right: 1px solid #FFFFFF;
+    text-align: left;
+    padding: 10px;
+}
+
+td{
+    padding: 10px;
+    border-collapse:collapse;
+    border-right: 1px solid #FFFFFF;
+}
+
+.degree-cell{
+    display: flex;
+    justify-content: space-between;
+}
+
